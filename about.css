@@ -1,0 +1,223 @@
+
+.information h1 {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.information h2 {
+    font-weight: 300;
+}
+
+.information {
+    padding-top: 100px;
+    background-size: auto;
+}
+
+.more-information {
+    padding: 10px 20px;
+}
+
+.more-information h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.more-information p {
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.more-information ul li{
+    list-style: circle;
+    margin-left: 50px;
+    text-decoration: underline;
+    color: green;
+}
+
+.practice-areas {
+    background-color: #263D33;
+    margin: 10px;
+    padding: 30px;
+}
+
+.practice-areas li{
+    padding: 10px 0;
+
+}
+.practice-areas h1{
+    color: #fff;
+    text-align: left;
+    padding: 10px 0;
+    font-weight: 400;
+
+}
+
+.practice-areas li a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-now {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.contact-img img{
+    max-width: 100%;
+    height: auto;
+    padding: 30px 10px;
+}
+
+.contact {
+    background-image: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.contact h1 {
+    text-align: left;
+}
+.contact p {
+    text-align: left;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+.form-control input, textarea {
+    width: 90%;
+    min-height: 40px;
+    margin: auto;
+    border: 1px solid #000;
+    background-color: #ccc;
+}
+.form-control label{
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact p:nth-child(2) {
+    margin-bottom: 100px;
+}
+
+.disclaimer {
+    text-align: left;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact .btn {
+    background-color: #178849;
+    text-align: center;
+    font-size: 15px;
+    max-width: 210px;
+    margin:10px auto;
+    color: #fff;
+    padding: 10px;
+}
+
+.testimonial h1 {
+    padding: 20px 10px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.testimonial p{
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.blog {
+    padding: 30px 20px;
+}
+
+.blog h1{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+.blog p{
+    text-align: left;
+    margin: 10px 0;
+}
+
+.blog a {
+    color: #000;
+    text-decoration: underline;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.blog-pic img {
+    max-width: 100%;
+}
+
+.blog-areas {
+    background-color: #263D33;
+    margin: 10px;
+    padding: 30px;
+}
+
+.blog-areas li{
+    padding: 10px 0;
+
+}
+.blog-areas h1{
+    color: #fff;
+    text-align: left;
+    padding: 10px 0;
+    font-weight: 400;
+
+}
+
+.blog-areas li a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 900px) {
+    .about-us {
+        display: flex;
+        flex-direction: row;
+    }
+    /* .more-information {
+        flex-basis: auto;
+    } */
+    .practice-areas {
+        flex-basis: 1200px;
+        height: 550px;
+        border-left: 5px solid green
+    }
+    .blog-post{
+        display: flex;
+        flex-direction: row;
+    }
+    .blog-areas {
+        height:860px;
+    }
+
+    .contact-now .contact-form .form-control {
+        max-width: 100%;
+    }
+    textarea {
+        padding: 10px;
+    }
+}
